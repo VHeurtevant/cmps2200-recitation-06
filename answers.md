@@ -9,7 +9,7 @@ Place all written answers from `recitation-07.md` here for easier grading.
 
 
 
-- **2)** The work for the fibonacci recurrence will be W(n) = W(n-1)+W(n-2)+1. The work on each level will be constant, however the two different subproblems will not be balanced and the leaves of the larger branch will dominate. The leave count for the fibonacci sequence is given as $\frac{\phi^n}{sqrt{5}}$, so the work is O($\phi^n$).
+- **2)** The work for the fibonacci recurrence will be W(n) = W(n-1)+W(n-2)+1. The work on each level will be constant, however the two different subproblems will not be balanced and the leaves of the larger branch will dominate. The leave count for the fibonacci sequence is given as $\frac{\phi^n}{\sqrt{5}}$, so the work is O($\phi^n$).
 
 - **3)** The span only considers the longest branch, so S(n)= MAX(S(n-1),S(n-2))+1. This simplifies to S(n)=S(n-1)+1, which is a balanced recursion with n levels each of constant cost, meaning the span will be O(n).
 
